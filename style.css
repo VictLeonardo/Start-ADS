@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size:100%;
+    background: linear-gradient(72.51deg, #18684B 0%, #00F0FF 100%);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    text-decoration: none;
+}
+
+.cabeçalho-imagem {
+    height: 70px;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+    
+}
+
+.cabeçalho-menu-item{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000000;
+    }
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #6DFF9F;
+}
+
+.conteudo-principal-imagem{
+    height: 450px;
+    border-top: 32px;
+    padding: 50px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #000000;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+
+.rodape{
+    border-top: 0.4px solid #000000;
+    padding: 1px;    
+}
+
+.rodape-imagem{
+    height: 472.7px;
+    display: block;
+    margin: 0 auto;
+}
